@@ -1,6 +1,6 @@
 .shop_the_feed_container
 {
-    width: 70%;
+    width: 50%;
     margin: auto;
     display:none
 }
@@ -68,7 +68,8 @@
   }
   h1
   {
-    text-align: center;
+    text-align:unset;
+    font-size: 50px;
   }
   p{
     text-align: center;
@@ -82,13 +83,15 @@
   h3
   {
     text-decoration: underline;
-    text-decoration-color: blue;
-    color: blue;
+    color: gray;
     text-align: center;
   }
   h5{
-    color: blue;
+    color: gray;
     text-align: center;
+  }
+  h3:hover{
+    color: black;
   }
   @media all and(min-width:320px) and (max-width:768px)
   {
