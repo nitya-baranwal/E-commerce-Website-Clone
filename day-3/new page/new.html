@@ -9,6 +9,9 @@
 </head>
 <body>
   <div>New</div>
+
+  <!-- Filter by min price, max price, price range, stock availability -->
+
   <div>Filter: 
     <button>Price</button>
    <div>
@@ -17,22 +20,33 @@
 
 <form>
   <div class="multiselect">
-    <div class="selectBox" onclick="showCheckboxes()">
-      <select>
-        <option>Select an option</option>
-      </select>
-      <div class="overSelect"></div>
-    </div>
-    <div id="checkboxes">
-      <label for="stock-in">
-        <input type="checkbox" id="stock-in" onclick="inStock()" />In stock</label>
-      <label for="stock-out">
-        <input type="checkbox" id="stock-out" onclick="outStock()"/>Out of Stock</label>
-    </div>
+          <div class="selectBox" onclick="showCheckboxes()">
+            <select>
+              <option>Select an option</option>
+            </select>
+            <div class="overSelect"></div>
+          </div>
+          <div id="checkboxes">
+                <label for="stock-in">
+                  <input type="checkbox" id="stock-in" onclick="inStock()" />In stock</label>
+                <label for="stock-out">
+                  <input type="checkbox" id="stock-out" onclick="outStock()"/>Out of Stock</label>
+          </div>
   </div>
-</form>
-    
+</form> 
    </div>
+  </div>
+
+  <!-- Sorting alphabetically : a-z, z-a, price : lowToHigh, highToLow-->
+
+  <div>Sort by:
+    <select name="" id="sort">
+      <option value="">Featured</option>
+      <option value="a-z">Alphabetically, A-Z</option>
+      <option value="z-a">Alphabetically, Z-A</option>
+      <option value="lowToHigh">Price, low to high</option>
+      <option value="highToLow">Price, high to low</option>
+    </select>
   </div>
   <div id="jewel-main-div"></div>
 </body>

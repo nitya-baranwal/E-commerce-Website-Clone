@@ -589,7 +589,58 @@ function outStock() {
 }
 }
 
+let sortbtn = document.getElementById('sort');
 
+sortbtn.addEventListener('change', () => {
+  let sort_value = sortbtn.value;
+  // console.log(prod);
+  let sortData = [...prod];
+  if(sort_value == ""){
+    append(sortData);
+  }else if(sort_value == 'a-z'){
+    sortData.sort( ( x, y ) => {
+      let a = x.name.toUpperCase();
+      let b = y.name.toUpperCase();
+      if(a<b){
+        return -1;
+      }
+    });
+    // console.log(sortData);
+    append(sortData);
+  } else if(sort_value == 'z-a'){
+    sortData.sort( ( x, y ) => {
+      let a = x.name.toUpperCase();
+      let b = y.name.toUpperCase();
+      if(b<a){
+        return -1;
+      }
+    });
+    // console.log(sortData);
+    append(sortData);
+  } else if(sort_value == 'lowToHigh'){
+    sortData.sort((a,b) => {
+      let str1 = a.price;
+      str1 = str1.slice(1,5);
+      let x = +(str1);
+      let str2 = b.price;
+      str2 = str2.slice(1,5);
+      let y = +(str2);
+      return x-y;
+    });
+    append(sortData);
+  } else if(sort_value == 'highToLow'){
+    sortData.sort((a,b) => {
+      let str1 = a.price;
+      str1 = str1.slice(1,5);
+      let x = +(str1);
+      let str2 = b.price;
+      str2 = str2.slice(1,5);
+      let y = +(str2);
+      return y-x;
+    });
+    append(sortData);
+  }
+});
 
 
 
