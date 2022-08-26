@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./checkout.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+    <title>Checkout</title>
+</head>
+<body>
+    <div id="check-container">
+        <div id="logo"><img src="https://cdn.shopify.com/s/files/1/0627/7388/7215/files/04122019_logo2.png?187" alt=""></div>
+        <div class="row">
+            <div class="col-60">
+                <div class="container">
+                <form>
+                    <div class="col-50">
+                        <h3 class="font-some">Shipping address</h3>
+                        <label id="lable-country">Country/region</label>
+                        <select id="country" placeholder="dvcxc">
+                            <option value="us">United States</option>
+                        </select>
+                        <div class="row">
+                            <div class="col-50 font-some">
+                                <input id="first-name" type="text" placeholder="First Name" required />
+                            </div>
+                            <div class="col-50 font-some">
+                                <input id="last-name" type="text" placeholder="Last Name" required />
+                            </div>
+                        </div>
+                        <input id="company" type="text" placeholder="Company (optional)" />
+                        <input id="address" type="text" placeholder="Address" />
+                        <input id="apartment" type="text" placeholder="Apartment, suite, etc. (optional)" />
+                        <div class="row">
+                            <div class="col-30">
+                                <input id="city" type="text" placeholder="City" />
+                            </div>
+                            <div class="col-30">
+                                <select id=""></select>
+                            </div>
+                            <div class="col-30">
+                                <input id="zip" type="text" placeholder="ZIP code" />
+                            </div>
+                        </div>
+                        
+                        <input id="zip" type="text" placeholder="Phone" />
+                        <div id="ship-bottom">
+                            <div id="return-cart"><a href="./cart.html">Return to cart</a></div>
+                            <button id="continue-ship">Continue to shipping</button>
+                        </div>
+                    </div>
+                    
+                    
+                </form>
+                </div>
+            </div>
+            <div class="col-40">
+
+            </div>
+        </div>
+    </div>
+    
+    <!-- <form id="shipping-form">
+        <input id="country" type="text" placeholder="India" required />
+        <input id="first-name" type="text" placeholder="First Name" required/>
+        <input id="last-name" type="text" placeholder="Last Name" required/>
+        <input id="" type="text" placeholder="Company">
+        
+    </form> -->
+</body>
+</html>

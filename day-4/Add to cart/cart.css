@@ -19,6 +19,7 @@ button,img{
     font-weight: 400;
     font-size: 40px;
     font-family: Assistant, sans-serif;
+    padding-bottom: 30px;
 }
 
 #shop-button{
@@ -26,6 +27,7 @@ button,img{
     color: white;
     padding: 12px 32px;
     cursor: pointer;
+    margin-bottom: 30px;
 }
 #shop-button>a{
     color: white;
@@ -37,6 +39,7 @@ button,img{
 }
 
 #login-with-check>h2{
+    margin-bottom: 10px;
     font-size: 24px;
     font-family: Assistant, sans-serif;
     font-weight: 400;
@@ -57,6 +60,7 @@ button,img{
 #product-cart{
     width: 75%;
     margin: auto;
+    margin-top: 100px;
 }
 #cart-head{
     display: flex;
@@ -64,6 +68,7 @@ button,img{
     align-items: center;
     font-family: Assistant,sans-serif;
     flex-wrap: wrap;
+    padding-bottom: 30px;
 }
 #cart-head>h1{
     font-family: Assistant,sans-serif;
