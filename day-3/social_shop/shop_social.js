@@ -15,4 +15,4 @@ btn.addEventListener("click",function()
     {
         event.target.style.display='none';
     }
-})
+});
