@@ -95,7 +95,7 @@
   }
   h1
   {
-    text-align: center;
+    text-align: unset;
   }
   p{
     text-align: center;
