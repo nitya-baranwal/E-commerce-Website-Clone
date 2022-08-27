@@ -1,0 +1,106 @@
+#chat_with_us
+{
+    padding:23px 25px;
+    background-color: rgb(73, 81, 73);
+    color: white;
+    border-radius: 10pc;
+    border: none;
+    font-size: 18px;
+    margin-top: 40%;
+    margin-left: 68% ;
+    position: fixed;
+}
+#first_mega_container
+{
+    width: 80%;
+    height: 5000px;
+    border: 1px solid red;
+    margin: auto;
+}
+/* #first_chat_with_us_container
+{
+    border: 1px solid red;
+    width: 25%;
+    height: 650px;
+    margin-left: 53%;
+    position: fixed;
+} */
+.first_chat_with_us_container_child_first
+{
+    width: 25%;
+    height: 220px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-left: 53%;
+    position: fixed;
+    background-color: rgb(73, 81, 73);
+    border-radius: 10px 10px 0px 0px;
+}
+.first_chat_with_us_container_child_sec
+{
+    width: 25%;
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-left: 53%;
+    margin-top: 13%;
+    position: fixed;
+    border-radius: 0px 0px 10px 10px;
+}
+.first_chat_with_us_container_child_third
+{
+    width: 22%;
+    height: 150px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-left: 54.5%;
+    margin-top: 10%;
+    position: fixed;
+    background-color: white;
+    border-radius: 10px;
+}
+.first_chat_with_us_container_child_first_comment
+{
+    margin-top: 10%;
+    font-size: 21px;
+    color: white;
+    text-align: center;
+}
+.first_chat_with_us_container_child_third_textarea
+{
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 16px;
+}
+.first_chat_with_us_container_child_sec_para
+{
+    text-align: center;
+    margin-top: 30% ;
+    font-size: 20px ;
+    font-weight: 550;
+}
+.first_chat_with_us_container_child_sec_button
+{
+    padding: 14px 270px 15px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left:5px ;
+    color: rgb(26, 30, 26);
+    border-radius: 10px;
+    border:2px solid rgb(73, 81, 73);
+}
+.first_chat_with_us_container_child_sec_button:hover
+{
+    color:white;
+    background-color: rgb(73, 81, 73);
+}
+#cross_deletion_button
+{
+    padding:16px 25px;
+    background-color: rgb(73, 81, 73);
+    color: white;
+    border-radius: 10pc;
+    border: none;
+    font-size: 30px;
+    margin-top: 40%;
+    margin-left: 74% ;
+    position: fixed;
+}
