@@ -1,0 +1,124 @@
+.shop_the_feed_container
+{
+    width: 50%;
+    margin: auto;
+    display:none
+}
+.shop_the_feed_container:nth-child(1)
+{
+    display: block;
+    margin-bottom: 1%;
+}
+#first_child,#sec_child
+{
+    display: flex;
+    gap: 1%;
+}
+#sec_child
+{
+    margin-top: 1%;
+}
+#first_natu,#sec_porga{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 1%;
+    width: 59%;
+}
+#first_natu>div>img,#sec_natu>img,#first_porga>img,#sec_porga>div>img{
+    width: 100%;
+}
+#sec_natu,#first_porga
+{
+    width: 39%;
+}
+@media all and (min-width:0px) and (max-width:768px)
+{
+  #first_natu,#sec_porga{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      grid-template-rows: repeat(auto,1fr);
+      gap: 1%;;
+  }
+  #sec_natu,#first_porga
+  {
+    width: 59%;
+    height: auto;
+  }
+  #first_child,#sec_child
+  {
+    display:grid;
+    margin-left: 30%;
+  }
+  .shop_the_feed_container
+  {
+    width:100%;
+  }
+  h1,h1+p,.header,h3,h3+h5 
+  {
+    font-size: small;
+  }
+
+}
+#sec_natu ,#first_natu div,#first_porga ,#sec_porga div{
+    position: relative;
+    overflow: hidden;
+  }
+#sec_natu:hover .overlay,#first_natu>div:hover .overlay,#first_natu>div:hover .overlay,#first_natu>div:hover .overlay,#first_natu>div:hover .overlay,#first_natu>div:hover .overlay,#first_natu>div:hover .overlay,#first_porga:hover .overlay,#sec_porga>div:hover .overlay,#sec_porga>div:hover .overlay,#sec_porga>div:hover .overlay,#sec_porga>div:hover .overlay,#sec_porga>div:hover .overlay,#sec_porga>div:hover .overlay
+{
+    opacity: 0.6;
+    background: rgb(120, 118, 118);
+    color: white;
+}
+   
+ .overlay {
+    position: absolute;
+    height: 99.5%;
+    width: 100.5%;
+    margin-top: -1.5px;
+    opacity: 0;
+    transition: .5s ease;
+  }
+  #sec_natu>button,#first_natu>div button,#first_porga>button,#sec_porga>div button{
+    border: 1px solid white;
+    color: #fff;
+    font-size: 25px;
+    position: absolute;
+    opacity: -1;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    cursor: pointer;
+  }
+  h1
+  {
+    text-align: center;
+  }
+  p{
+    text-align: center;
+    color: rgb(103, 78, 78);
+    font-size: 19px;
+  }
+  .header
+  {
+    margin-top: 6%;
+  }
+  h3
+  {
+    text-decoration: underline;
+    text-decoration-color: blue;
+    color: blue;
+    text-align: center;
+  }
+  h5{
+    color: blue;
+    text-align: center;
+    font-size: 19px;
+  }
+ 
+
+
+

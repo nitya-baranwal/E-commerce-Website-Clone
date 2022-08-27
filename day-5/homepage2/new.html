@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="new.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/regular.min.css" integrity="sha512-EbT6icebNlvxlD4ECiLvPOVBD0uQdt4pHRg8Gpkfirdu9W8l2rtRZO8rThjqeIK08ubcFeiFKHbek7y+lEbWIQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div>New</div>
+  <div>Filter: 
+    <button>Price</button>
+   <div>
+    <input id="price-from" type="text" placeholder="From" value="" oninput="priceFunc()">
+    <input id="price-to" type="text" placeholder="To" value="" oninput="priceFunc()">
+
+<form>
+  <div class="multiselect">
+    <div class="selectBox" onclick="showCheckboxes()">
+      <select>
+        <option>Select an option</option>
+      </select>
+      <div class="overSelect"></div>
+    </div>
+    <div id="checkboxes">
+      <label for="stock-in">
+        <input type="checkbox" id="stock-in" onclick="inStock()" />In stock</label>
+      <label for="stock-out">
+        <input type="checkbox" id="stock-out" onclick="outStock()"/>Out of Stock</label>
+    </div>
+  </div>
+</form>
+
+<div>Sort by:
+  <select name="" id="sort">
+    <option value="">Featured</option>
+    <option value="a-z">Alphabetically, A-Z</option>
+    <option value="z-a">Alphabetically, Z-A</option>
+    <option value="lowToHigh">Price, low to high</option>
+    <option value="highToLow">Price, high to low</option>
+  </select>
+</div>
+
+   </div>
+  </div>
+ 
+  <div id="jewel-main-div"></div>
+</body>
+</html>
+<script src="new.js"></script>
