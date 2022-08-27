@@ -1,0 +1,115 @@
+/* products start */
+
+*{
+    margin-top:0;
+    margin-left: 0;
+  }
+  #jewel-main-div{
+    margin: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1%;
+    margin-bottom: 5%;
+    text-align: left;
+  }
+  .jewel-image-div{
+    position: relative;
+    width: 100%;
+  }
+  .jewel-card-image-1 {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .overlay111 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .2s ease;
+    transition: 0.5s all ease-in-out;
+  }
+  .jewel-image-div:hover .overlay111 {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  .jewel-image-div:hover .jewel-card-div-name{
+    text-decoration: underline;
+  }
+  .jewel-image-div{
+    height:auto;
+    overflow: hidden;
+  }
+  .jewel-card-image-2 {
+    width: 100%;
+    transition: all .3s ease-in-out;
+  } 
+  
+  .multiselect {
+    width: 200px;
+  }
+  
+  .selectBox {
+    position: relative;
+  }
+  
+  .selectBox select {
+    width: 100%;
+    font-weight: bold;
+  }
+  
+  .overSelect {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  
+  #checkboxes {
+    display: none;
+    border: 1px #dadada solid;
+  }
+  
+  #checkboxes label {
+    display: block;
+  }
+  
+  #checkboxes label:hover {
+    background-color: #1e90ff;
+  }
+  
+  
+  .jewel-card-div{
+    position: relative;
+   
+  }
+  
+  .icon_div_outer{
+    position: absolute;
+    top:0;
+    left:0;
+  }
+  #icon-heart-hollow,
+  #icon-heart-fill{
+    top:5%;
+    border-radius: 50%;
+      border: 1px solid white;
+      background-color: white;
+  }
+  #icon_div_outer button{
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 20;
+    width: 13%;
+    aspect-ratio: 1;
+  }
+ 
+
+  /* products end */
