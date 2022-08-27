@@ -1,4 +1,3 @@
-
 #footer-top-border,#footer-bottom-border{
     padding-top: 50px;
     margin-top: 50px;
@@ -28,6 +27,7 @@
     color: #121212bf;
     font-size: 14px;
     text-decoration: none;
+    overflow: hidden;
 }
 #footer-info>ul>li:hover{
     display: inline-block;

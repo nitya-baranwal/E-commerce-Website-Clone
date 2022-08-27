@@ -1,0 +1,45 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* background: dimgray; */
+    font-family: 'Assistant', sans-serif;
+}
+.banner-img{
+position: relative;
+background: url(https://cdn.shopify.com/s/files/1/0627/7388/7215/files/13122-2_2000x.jpg?v=1645120932)  dimgray;
+background-blend-mode: overlay;
+background-size: cover;
+height: 710px;
+overflow: hidden;
+background-position:center top ;
+}
+
+.banner-h1{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #f1f1f1;
+}
+.banner-h1 h1{
+    margin: 0;
+    font-size: 50px;
+    font-weight: 400;
+}
+.banner-p{
+margin: 20px;
+display: block;
+font-size: 20px;
+}
+.banner-btn{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 13px 40px;
+    opacity: 10;
+}
+.banner-btn:hover{
+    border: 3px solid white;
+}

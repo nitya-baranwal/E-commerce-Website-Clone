@@ -1,5 +1,5 @@
-var wraper=document.getElementsByClassName("shop_the_feed_container")
-var btn=document.getElementById("loadmore")
+var wraper=document.getElementsByClassName("shop_the_feed_container");
+var btn=document.getElementById("loadmore");
 var currentchild=1;
 btn.addEventListener("click",function()
 {
@@ -15,4 +15,4 @@ btn.addEventListener("click",function()
     {
         event.target.style.display='none';
     }
-})
+});
