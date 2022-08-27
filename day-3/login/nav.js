@@ -8,6 +8,7 @@
     let searchMenu = document.getElementById('nav_search_main');
     searchMenu.style.display = 'none'
 
+
     function  bar(){
        headMenu.style.display = 'none';
         searchMenu.style.display = 'block'

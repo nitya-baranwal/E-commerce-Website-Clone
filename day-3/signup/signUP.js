@@ -18,7 +18,7 @@ let obj ={
    fname : fname,
    lname : lname,
    email : email,
-   pass : pass,
+   pass :  pass,
 
 };
 

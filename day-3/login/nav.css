@@ -72,7 +72,8 @@ height: auto;
 
 
  #nav_menu{
-    width: 65%;
+   /* border: 1px solid red; */
+    width: 700px;
     display: flex;
     justify-content:start;
     align-items: center;
@@ -94,12 +95,13 @@ height: auto;
     font-size:0.9rem ;
     text-decoration: none;
     letter-spacing: 0.06rem;
+    text-underline-offset: 3px;
 
  }
 
- #nav_menu a:active{
+ #nav_menu ul li a:active{
         color: black;
-        text-decoration: underline;
+        text-decoration: 2px underline;
         font-weight: 500;
 
  }
@@ -147,6 +149,10 @@ height: auto;
     padding: 2px;
  }
 
+ #side_cross{
+   /* display: none; */
+ }
+
  #search_bottom {
 
     display: flex;
@@ -164,6 +170,8 @@ height: auto;
    
    
 }
+
+
 
 #search_bottom input {
     width: 500px;
@@ -249,7 +257,7 @@ height: auto;
  }
 
 
-@media all and (min-width:300px) and (max-width:989px){
+@media all and (min-width:300px) and (max-width:1129px){
 
     #nav_bottom{
         display: none;
