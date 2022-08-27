@@ -1,4 +1,25 @@
 
+    let links =  document.querySelector('#nav_menu').querySelectorAll('a');
+    console.log(links);
+
+    links.forEach(elem => {
+     elem.addEventListener('click' , function(){
+      links.forEach(nav=>nav.classList.remove('active'))
+
+      this.classList.add('active');
+     })
+    
+    });
+
+
+
+
+
+
+
+
+
+
 
     document.getElementById('search_btn').addEventListener('click' , bar);
     
@@ -75,3 +96,5 @@ document.getElementById('cross_btn').addEventListener('click' , searchBar);
 
 
 
+
+    
