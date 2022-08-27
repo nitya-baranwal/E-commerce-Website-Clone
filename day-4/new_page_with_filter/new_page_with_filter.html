@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>newpage-filter</title>
+
+  <!-- <link rel="stylesheet" href="./css/newpage.css" /> -->
+  <link rel="stylesheet" href="./filter.css" />
+  <link rel="stylesheet" href="./newproduct.css" />
+</head>
+
+<body>
+
+  <div id="mainfilter">
+    <h1 style="font-weight: 400; font-size: 3rem;">New</h1>
+    <!--Filter Section  -->
+    <div class="dropdown">
+      <span>Filter:</span>
+      <!--Price range Section  -->
+
+      <a class="price-range">Price</a>
+      <div class="dropdown-content">
+        <div class="dropdown-content-part1">
+          <form id="reset-form">
+            <span>The highest price is $20.00</span> <a href="#" onclick="myFunction()" value="Reset"
+              id="reset1">Reset</a>
+        </div>
+
+
+        <div class="min-max">
+          <span>$</span>
+          <!-- <input type="number" placeholder="From" /> -->
+
+          <input id="min-range" type="text" placeholder="From" oninput="priceFunc()">
+
+          <span style="margin-left: 5%;">$</span>
+
+          <!-- <input type="number" class="max-range" placeholder="To" /> -->
+
+          <input id="max-range" type="text" placeholder="To" value="" oninput="priceFunc()">
+
+          </form>
+        </div>
+
+
+      </div>
+
+
+    </div>
+
+    <!-- Availability Section -->
+    <div class="dropdown">
+
+      <a class="availability">Availability</a>
+      <div class="dropdown-content">
+        <div class="dropdown-content-part1">
+          <form id="reset-form1">
+            <span>0 Selected</span> <a href="#" onclick="myFunction()" value="Reset" id="reset2">Reset</a>
+        </div>
+
+
+        <div class="min-max">
+
+          <label for="in-stock">
+            <input type="checkbox" id="in-stock" onclick="inStock()" />In stock</label><br>
+
+          <label for="out-of-stock">
+            <input type="checkbox" id="out-of-stock" onclick="outofStock()" />Out of Stock</label>
+
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Sort by Section -->
+
+    <div id="sort">
+      <form>
+        <span style="font-size:14px ;">Sort by:</span>
+        <select name="sortby" id="sortby">
+          <option value="">Featured</option>
+          <option value="a-z">Alphabetically, A-Z</option>
+          <option value="z-a">Alphabetically, Z-A</option>
+          <option value="lowToHigh">Price, low to high</option>
+          <option value="highToLow">Price, high to low</option>
+        </select>
+      </form>
+    </div>
+
+    <div class="total-product">
+      <span>56 Products</span>
+    </div>
+
+
+  </div>
+  <div id="jewel-new-main-div"></div>
+</body>
+
+</html>
+
+<script src="./new_page_with_filter.js"></script>
