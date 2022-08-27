@@ -161,7 +161,7 @@ let append = (prod) => {
 
     let div2 = document.createElement('div');
     div2.setAttribute('class','div-2');
-    div2.setAttribute('class','overlay');
+    div2.setAttribute('class','overlay111');
     
     let name1 = document.createElement('p');
     name1.innerText = el.name;
