@@ -1,0 +1,369 @@
+
+/* product page */
+#evermore_ear_cuff_earrings_cart_container
+{
+    width: 72%;
+    height: auto;
+    /* border:1px solid red; */
+    margin:auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+#evermore_ear_cuff_earrings_cart_container_child1
+{
+    width: 58%;
+    height: auto;
+    /* border: 1px solid blue;  */
+}
+#evermore_ear_cuff_earrings_cart_container_child2
+{
+    width: 32%;
+    height: auto;
+    /* border: 1px solid blue; */
+}
+#evermore_ear_cuff_earrings_cart_container_first_natu
+{
+    width: 100%;
+    height: auto;
+    /* border:1px solid black; */
+}
+#evermore_ear_cuff_earrings_cart_container_sec_natu
+{
+    width:100%;
+    height:auto;
+    justify-content: space-around;
+    /* border:1px solid green; */
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1%;
+}
+#evermore_ear_cuff_earrings_cart_container_first_natu>img,#evermore_ear_cuff_earrings_cart_container_sec_natu>div>img{
+    width:100%;
+}
+#evermore_ear_cuff_earrings_name
+{
+    text-align: unset;
+    font-size: 35px;
+    width: 70%;
+    margin-bottom: 10%;
+}
+#evermore_ear_cuff_earrings_price
+{
+    font-size: 23px;
+    margin-bottom: 5%;
+}
+#evermore_ear_cuff_earrings_cart_button
+{
+   justify-content: center;
+   text-align: center;
+   margin-left: auto;
+   margin-top: 10%;
+   padding: 15px 158px;
+   background-color: white;
+   min-width: 300px;
+font-size: 14px;
+padding: 10px 20px;
+color: white;
+background-color: black;
+}
+#evermore_ear_cuff_earrings_cart_button:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(0, 0, 0) 0px 0px 0px 1px;
+    transition: 0.1s ease-in;
+    cursor:pointer;
+}
+#evermore_ear_cuff_earrings_cart_free_shiping
+{
+    width: 72%;
+    margin: auto;
+    height: 100px;
+    /* border: 1px solid red; */
+}
+#evermore_ear_cuff_earrings_cart_free_shiping>.shipping_free_by_lovoda
+{
+    text-align: center;
+    font-size: 18px;
+}
+#evermore_ear_cuff_earrings_cart_free_shiping>.free_from_lovoda
+{
+    margin-left: 32.5%;
+    font-weight: 530;
+    font-size: 20px;
+}
+#review_and_comment_section
+{
+    width: 72%;
+    height: 400px;
+    /* border: 1px solid green; */
+    margin: auto;
+}
+#review_and_comment_section_first_child>#review_and_comment_section_ask_question
+{
+   margin-left: 75%;
+   padding: 10px 15px;
+   color: #cda481;
+   border: 2px solid #cda481;
+   font-size: 15px;
+   background-color: white;
+   border-radius: 5px;
+}
+#review_and_comment_section_first_child>#review_and_comment_section_add_a_review
+{
+    margin-left: 10px;
+    color: white;
+    padding: 10px 15px;
+    border: 2px solid #cda481;
+    font-size: 15px;
+    background-color: #cda481;
+    border-radius: 5px;
+}
+#review_and_comment_section_review_and_question
+{
+    /* border: 1px solid red; */
+    display: flex;
+    font-size: 19px;
+    font-weight: 550;
+    border-bottom: 3px solid rgb(207, 199, 199);
+}
+.review_and_comment_section_review,.review_and_comment_section_question
+{
+    margin-left: 20px;
+}
+#ask_a_question_textaera
+{
+    width:99.5%;
+    height: 90px;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+#review_and_comment_section_input_email_box
+{
+    padding: 7px 110px 7px 0px;
+    margin-top: 20px;
+}
+#review_and_comment_section_post_button
+{
+    margin-left: 90%;
+    background-color: #cda481;
+    color: white;
+    font-size: 15px;
+    padding: 10px 15px;
+    border: 2px solid #cda481;
+}
+#review_and_comment_section_one_comment
+{
+    margin-left: 14%;
+    font-size: 18px;
+}
+/* product page end */
+/* product cart pop up */
+*{
+    margin-top:0;
+    margin-left: 0;
+  }
+  #jewel-main-div{
+    margin: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1%;
+  }
+  .jewel-image-div{
+    position: relative;
+    width: 100%;
+  }
+  .jewel-card-image-1 {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .2s ease;
+    transition: 0.5s all ease-in-out;
+  }
+  .jewel-image-div:hover .overlay {
+    opacity: 1;
+     transform: scale(1.05);
+  }
+  .jewel-image-div:hover .jewel-card-div-name{
+    text-decoration: underline;
+  }
+  .jewel-image-div{
+    height:auto;
+    overflow: hidden;
+  }
+  .jewel-card-image-2 {
+    width: 100%;
+    transition: all .3s ease-in-out;
+  } 
+  
+/* product cart pop up end */
+
+/* footer css */
+
+#footer-top-border,#footer-bottom-border{
+    padding-top: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid rgb(212, 212, 212);
+}
+#footer-info-contact,#email-social{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+#footer-info{
+    width: 50%;
+}
+#footer-info>h2,#footer-contact>h2,#email-input-form,#subscribe-head{
+    font-size: 18px;
+    font-family: Assistant, sans-serif;
+    font-weight: 400;
+    color: #4b4949;
+}
+#footer-info>ul,#footer-contact>ul{
+    list-style: none;
+    padding: 0;
+    line-height: 40px;
+    font-family: Assistant, sans-serif ;
+    color: #121212bf;
+    font-size: 14px;
+    text-decoration: none;
+}
+#footer-info>ul>li:hover{
+    display: inline-block;
+    cursor: pointer;
+    color: black;
+    text-decoration: underline;
+}
+#email-social{
+    justify-content: space-between;
+}
+#subscribe-email{
+    width: 50%;
+}
+#email-input-form{
+    position: relative;  
+    display: flex;
+}
+#email-input-form>input{
+    width: 358px;
+    height: 45px;
+    outline: none;
+    background: none;
+    padding: 15px 50px 5px 15px;
+    box-sizing: border-box;
+    border: 2px solid rgb(166, 164, 164);
+    font-size: 17px;
+}
+#email-input-form>input:hover{
+    border: 2.5px solid rgb(153, 153, 153);
+}
+#email-lable{
+    position: absolute;
+    top: 0.6rem;
+    left: 1.4rem;
+    font-size: 16px;
+}
+#email-input-form>input:focus{
+    border: 2px solid rgb(0, 0, 0);
+}
+#email-input-form>input:focus + #email-lable,
+#email-signup:not(:placeholder-shown)#email-signup:not(:focus)+#email-lable{
+    top: 0.3rem;
+    left: 1rem;
+    font-size: 10px;
+    transition: 0.1s ease-in;
+}
+#btn-send-email{
+    position: relative;
+    top: 3px;
+    right: 32px;
+    height: 40px;
+    width: 30px;
+    min-width: 30px; 
+    border: 0;
+    overflow: hidden;
+    background-color: transparent;
+    cursor: pointer;
+}
+#btn-send-email>svg{
+    position: relative;
+    top: 12px;
+    color: black;
+}
+#social-links{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+#social-links>div{
+    display: flex;
+    height: 25px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#social-links>div>svg{
+    margin: 0;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    margin: 15px;
+}
+#social-links>div>svg:hover{
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
+#list-payment{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#list-payment>li{
+    margin: 5px;
+}
+#footer_copyright{
+    text-align: center;
+    font-size: 12px;
+    font-family: Assistance, sans-serif;
+    color: #121212bf;
+}
+#success-msg{
+    font-family: Assistance, sans-serif;
+    margin-top: 10px;
+    color: rgb(2, 78, 2);
+}
+@media screen and (max-width: 810px){
+    #email-social{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #subscribe-email{
+        text-align: center;
+    }
+    #email-input-form>input{
+        min-width: 50px;
+    }
+    #email-social{
+        width: 100%;
+    }
+}
+
+

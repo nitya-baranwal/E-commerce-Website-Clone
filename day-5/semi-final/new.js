@@ -252,202 +252,212 @@ let prod = [
     price: '$10.00',
     stock_status: false
   },
-  {
-    image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101108-3_1.jpg?v=1659449973',
-    image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101108-4_1_823x.jpg?v=1659449973',
-    name: 'Barrel Stone Earrings',
-    price: '$18.00',
-    stock_status: true
-  },
-  {
-    image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101107-G-2_1_823x.jpg?v=1659449908',
-    image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101107-G-3_1_823x.jpg?v=1659449908',
-    name: 'Ball Stud Earrings | Gold',
-    price: '$12.00',
-    stock_status: false
-  },
-  {
-    image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101106-G-1_1.jpg?v=1659449836',
-    image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101106-G-4_1_823x.jpg?v=1659449841',
-    name: 'Classic Stone Stud Earrings | Gold',
-    price: '$12.00',
-    stock_status: true
-  },
-  {
-    image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101105-1_1_823x.jpg?v=1659449763',
-    image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101105-4_1_823x.jpg?v=1659449765',
-    name: 'Acclaim Hoop Earrings',
-    price: '$20.00',
-    stock_status: true
-  },
-  {
-    image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101099-S-2_1_823x.jpg?v=1659449657',
-    image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101099-S-3_1_823x.jpg?v=1659449657',
-    name: 'Sunnyside Stud Earrings | Silver',
-    price: '$12.00',
-    stock_status: true
-  },
-  {
-    image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101099-G-1_1_823x.jpg?v=1659449581',
-    image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101099-G-4_1_823x.jpg?v=1659449581',
-    name: 'Sunnyside Stud Earrings | Gold',
-    price: '$14.00',
-    stock_status: true
-  },
-  {
-    image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101098-2_1_823x.jpg?v=1659449488',
-    image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101098_M_823x.jpg?v=1661279081',
-    name: 'Lace Flower Drop Earrings',
-    price: '$20.00',
-    stock_status: false
-  },
-  {
-    image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101097-1_1_823x.jpg?v=1659449407',
-    image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101097-3_1_823x.jpg?v=1659449410',
-    name: 'Nomad Hoop Earrings',
-    price: '$18.00',
-    stock_status: true
-  },
-  {
-    image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101096-2_1_823x.jpg?v=1659449305',
-    image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101096-3_1_823x.jpg?v=1659449305',
-    name: 'Palm Drop Hoop Earrings',
-    price: '$16.00',
-    stock_status: true
-  },
-  {
-    image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L401041-1_823x.jpg?v=1659449145',
-    image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L401041-3_823x.jpg?v=1659449166',
-    name: 'Evermore Adjustable Ring',
-    price: '$14.00',
-    stock_status: true
-  },
-  {
-    image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L401040-1_823x.jpg?v=1659448216',
-    image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L401040-3_823x.jpg?v=1659448217',
-    name: 'Wreath Adjustable Ring',
-    price: '$14.00',
-    stock_status: true
-  },
-  {
-    image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L401038-1_823x.jpg?v=1659448105',
-    image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L401038-3_823x.jpg?v=1659448110',
-    name: 'Infinity Adjustable Ring',
-    price: '$14.00',
-    stock_status: true
-  },
-  {
-    image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101104-2_1.jpg?v=1659450395',
-    image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101104-3_1_823x.jpg?v=1659450395',
-    name: 'Evermore Ear Cuff Earrings',
-    price: '$10.00',
-    stock_status: true
-  },
-  {
-    image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101103-2_1.jpg?v=1659450313',
-    image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101103-3_1_823x.jpg?v=1659450313',
-    name: 'Wired Ear Cuff Earrings',
-    price: '$10.00',
-    stock_status: true
-  },
-  {
-    image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101102-1_1_823x.jpg?v=1659450226',
-    image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101102-4_1_823x.jpg?v=1659450231',
-    name: 'Fern Ear Cuff Earrings',
-    price: '$10.00',
-    stock_status: true
-  },
-  {
-    image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101101-1_1.jpg?v=1659450051',
-    image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101101-3_1_823x.jpg?v=1659450054',
-    name: 'Blossom Ear Cuff Earrings',
-    price: '$10.00',
-    stock_status: true
-  },
-  {
-    image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101108-3_1.jpg?v=1659449973',
-    image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101108-4_1_823x.jpg?v=1659449973',
-    name: 'Barrel Stone Earrings',
-    price: '$18.00',
-    stock_status: true
-  },
-  {
-    image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101107-G-2_1_823x.jpg?v=1659449908',
-    image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101107-G-3_1_823x.jpg?v=1659449908',
-    name: 'Ball Stud Earrings | Gold',
-    price: '$12.00',
-    stock_status: true
-  },
-  {
-    image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101106-G-1_1.jpg?v=1659449836',
-    image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101106-G-4_1_823x.jpg?v=1659449841',
-    name: 'Classic Stone Stud Earrings | Gold',
-    price: '$12.00',
-    stock_status: true
-  },
-  {
-    image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101105-1_1_823x.jpg?v=1659449763',
-    image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101105-4_1_823x.jpg?v=1659449765',
-    name: 'Acclaim Hoop Earrings',
-    price: '$20.00',
-    stock_status: true
-  },
-  {
-    image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101099-S-2_1_823x.jpg?v=1659449657',
-    image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101099-S-3_1_823x.jpg?v=1659449657',
-    name: 'Sunnyside Stud Earrings | Silver',
-    price: '$12.00',
-    stock_status: true
-  },
-  {
-    image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101099-G-1_1_823x.jpg?v=1659449581',
-    image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101099-G-4_1_823x.jpg?v=1659449581',
-    name: 'Sunnyside Stud Earrings | Gold',
-    price: '$14.00',
-    stock_status: true
-  },
-  {
-    image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101098-2_1_823x.jpg?v=1659449488',
-    image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101098_M_823x.jpg?v=1661279081',
-    name: 'Lace Flower Drop Earrings',
-    price: '$20.00',
-    stock_status: true
-  },
-  {
-    image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101097-1_1_823x.jpg?v=1659449407',
-    image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101097-3_1_823x.jpg?v=1659449410',
-    name: 'Nomad Hoop Earrings',
-    price: '$18.00',
-    stock_status: true
-  },
-  {
-    image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101096-2_1_823x.jpg?v=1659449305',
-    image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101096-3_1_823x.jpg?v=1659449305',
-    name: 'Palm Drop Hoop Earrings',
-    price: '$16.00',
-    stock_status: true
-  },
-  {
-    image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L401041-1_823x.jpg?v=1659449145',
-    image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L401041-3_823x.jpg?v=1659449166',
-    name: 'Evermore Adjustable Ring',
-    price: '$14.00',
-    stock_status: false
-  },
-  {
-    image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L401040-1_823x.jpg?v=1659448216',
-    image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L401040-3_823x.jpg?v=1659448217',
-    name: 'Wreath Adjustable Ring',
-    price: '$14.00',
-    stock_status: true
-  },
-  {
-    image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L401038-1_823x.jpg?v=1659448105',
-    image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L401038-3_823x.jpg?v=1659448110',
-    name: 'Infinity Adjustable Ring',
-    price: '$14.00',
-    stock_status: true
-  },
+  // {
+ // {
+  //   image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101108-3_1.jpg?v=1659449973',
+  //   image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101108-4_1_823x.jpg?v=1659449973',
+  //   name: 'Barrel Stone Earrings',
+  //   price: '$18.00',
+  //   stock_status: true
+  // },
+  // {
+  //   image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101107-G-2_1_823x.jpg?v=1659449908',
+  // {
+  //   image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101108-3_1.jpg?v=1659449973',
+  //   image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101108-4_1_823x.jpg?v=1659449973',
+  //   name: 'Barrel Stone Earrings',
+  //   price: '$18.00',
+  //   stock_status: true
+  // },
+  // {
+  //   image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101107-G-2_1_823x.jpg?v=1659449908',
+  //   image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101107-G-3_1_823x.jpg?v=1659449908',
+  //   name: 'Ball Stud Earrings | Gold',
+  //   price: '$12.00',
+  //   stock_status: false
+  // },
+  // {
+  //   image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101106-G-1_1.jpg?v=1659449836',
+  //   image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101106-G-4_1_823x.jpg?v=1659449841',
+  //   name: 'Classic Stone Stud Earrings | Gold',
+  //   price: '$12.00',
+  //   stock_status: true
+  // },
+  // {
+  //   image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101105-1_1_823x.jpg?v=1659449763',
+  //   image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101105-4_1_823x.jpg?v=1659449765',
+  //   name: 'Acclaim Hoop Earrings',
+  //   price: '$20.00',
+  //   stock_status: true
+  // },
+  // {
+  //   image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101099-S-2_1_823x.jpg?v=1659449657',
+  //   image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101099-S-3_1_823x.jpg?v=1659449657',
+  //   name: 'Sunnyside Stud Earrings | Silver',
+  //   price: '$12.00',
+  //   stock_status: true
+  // },
+  // {
+  //   image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101099-G-1_1_823x.jpg?v=1659449581',
+  //   image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101099-G-4_1_823x.jpg?v=1659449581',
+  //   name: 'Sunnyside Stud Earrings | Gold',
+  //   price: '$14.00',
+  //   stock_status: true
+  // },
+  // {
+  //   image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101098-2_1_823x.jpg?v=1659449488',
+  //   image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101098_M_823x.jpg?v=1661279081',
+  //   name: 'Lace Flower Drop Earrings',
+  //   price: '$20.00',
+  //   stock_status: false
+  // },
+  // {
+  //   image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101097-1_1_823x.jpg?v=1659449407',
+  //   image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101097-3_1_823x.jpg?v=1659449410',
+  //   name: 'Nomad Hoop Earrings',
+  //   price: '$18.00',
+  //   stock_status: true
+  // },
+  // {
+  //   image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101096-2_1_823x.jpg?v=1659449305',
+  //   image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101096-3_1_823x.jpg?v=1659449305',
+  //   name: 'Palm Drop Hoop Earrings',
+  //   price: '$16.00',
+  //   stock_status: true
+  // },
+  // {
+  //   image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L401041-1_823x.jpg?v=1659449145',
+  //   image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L401041-3_823x.jpg?v=1659449166',
+  //   name: 'Evermore Adjustable Ring',
+  //   price: '$14.00',
+  //   stock_status: true
+  // },
+  // {
+  //   image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L401040-1_823x.jpg?v=1659448216',
+  //   image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L401040-3_823x.jpg?v=1659448217',
+  //   name: 'Wreath Adjustable Ring',
+  //   price: '$14.00',
+  //   stock_status: true
+  // },
+  // {
+  //   image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L401038-1_823x.jpg?v=1659448105',
+  //   image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L401038-3_823x.jpg?v=1659448110',
+  //   name: 'Infinity Adjustable Ring',
+  //   price: '$14.00',
+  //   stock_status: true
+  // },
+  // {
+  //   image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101104-2_1.jpg?v=1659450395',
+  //   image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101104-3_1_823x.jpg?v=1659450395',
+  //   name: 'Evermore Ear Cuff Earrings',
+  //   price: '$10.00',
+  //   stock_status: true
+  // },
+  // {
+  //   image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101103-2_1.jpg?v=1659450313',
+  //   image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101103-3_1_823x.jpg?v=1659450313',
+  //   name: 'Wired Ear Cuff Earrings',
+  //   price: '$10.00',
+  //   stock_status: true
+  // },
+  // {
+  //   image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101102-1_1_823x.jpg?v=1659450226',
+  //   image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101102-4_1_823x.jpg?v=1659450231',
+  //   name: 'Fern Ear Cuff Earrings',
+  //   price: '$10.00',
+  //   stock_status: true
+  // },
+  // {
+  //   image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101101-1_1.jpg?v=1659450051',
+  //   image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101101-3_1_823x.jpg?v=1659450054',
+  //   name: 'Blossom Ear Cuff Earrings',
+  //   price: '$10.00',
+  //   stock_status: true
+  // },
+  // {
+  //   image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101108-3_1.jpg?v=1659449973',
+  //   image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101108-4_1_823x.jpg?v=1659449973',
+  //   name: 'Barrel Stone Earrings',
+  //   price: '$18.00',
+  //   stock_status: true
+  // },
+  // {
+  //   image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101107-G-2_1_823x.jpg?v=1659449908',
+  //   image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101107-G-3_1_823x.jpg?v=1659449908',
+  //   name: 'Ball Stud Earrings | Gold',
+  //   price: '$12.00',
+  //   stock_status: true
+  // },
+  // {
+  //   image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101106-G-1_1.jpg?v=1659449836',
+  //   image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101106-G-4_1_823x.jpg?v=1659449841',
+  //   name: 'Classic Stone Stud Earrings | Gold',
+  //   price: '$12.00',
+  //   stock_status: true
+  // },
+  // {
+  //   image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101105-1_1_823x.jpg?v=1659449763',
+  //   image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101105-4_1_823x.jpg?v=1659449765',
+  //   name: 'Acclaim Hoop Earrings',
+  //   price: '$20.00',
+  //   stock_status: true
+  // },
+  // {
+  //   image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101099-S-2_1_823x.jpg?v=1659449657',
+  //   image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101099-S-3_1_823x.jpg?v=1659449657',
+  //   name: 'Sunnyside Stud Earrings | Silver',
+  //   price: '$12.00',
+  //   stock_status: true
+  // },
+  // {
+  //   image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101099-G-1_1_823x.jpg?v=1659449581',
+  //   image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101099-G-4_1_823x.jpg?v=1659449581',
+  //   name: 'Sunnyside Stud Earrings | Gold',
+  //   price: '$14.00',
+  //   stock_status: true
+  // },
+  // {
+  //   image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101098-2_1_823x.jpg?v=1659449488',
+  //   image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101098_M_823x.jpg?v=1661279081',
+  //   name: 'Lace Flower Drop Earrings',
+  //   price: '$20.00',
+  //   stock_status: true
+  // },
+  // {
+  //   image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101097-1_1_823x.jpg?v=1659449407',
+  //   image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101097-3_1_823x.jpg?v=1659449410',
+  //   name: 'Nomad Hoop Earrings',
+  //   price: '$18.00',
+  //   stock_status: true
+  // },
+  // {
+  //   image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101096-2_1_823x.jpg?v=1659449305',
+  //   image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101096-3_1_823x.jpg?v=1659449305',
+  //   name: 'Palm Drop Hoop Earrings',
+  //   price: '$16.00',
+  //   stock_status: true
+  // },
+  // {
+  //   image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L401041-1_823x.jpg?v=1659449145',
+  //   image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L401041-3_823x.jpg?v=1659449166',
+  //   name: 'Evermore Adjustable Ring',
+  //   price: '$14.00',
+  //   stock_status: false
+  // },
+  // {
+  //   image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L401040-1_823x.jpg?v=1659448216',
+  //   image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L401040-3_823x.jpg?v=1659448217',
+  //   name: 'Wreath Adjustable Ring',
+  //   price: '$14.00',
+  //   stock_status: true
+  // },
+  // {
+  //   image1: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L401038-1_823x.jpg?v=1659448105',
+  //   image2: 'https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L401038-3_823x.jpg?v=1659448110',
+  //   name: 'Infinity Adjustable Ring',
+  //   price: '$14.00',
+  //   stock_status: true
+  // },
 ];
 
 for(let k of prod){
@@ -459,7 +469,7 @@ localStorage.setItem('products',JSON.stringify(prod));
 
 let arrLS = JSON.parse(localStorage.getItem('products'))||[];
 
-let container = document.getElementById('jewel-main-div');
+let container = document.getElementById('jewel-new-main-div');
 
 let append = (prod) => {
 
@@ -487,11 +497,11 @@ let append = (prod) => {
     
     let name1 = document.createElement('p');
     name1.innerText = el.name;
-    name1.setAttribute('class','jewel-card-div-name');
+    name1.setAttribute('id','jewel-card-div-name');
     
     let price1 = document.createElement('p');
     price1.innerText = el.price;
-    price1.setAttribute('class','jewel-card-div-price');
+    price1.setAttribute('id','jewel-card-div-price');
 
     let icon_div_outer = document.createElement('div');
     icon_div_outer.setAttribute('id','icon_div_outer');
@@ -512,6 +522,19 @@ let append = (prod) => {
       }
     }
 
+    img2.addEventListener('click',function(){
+      let obj = {
+        image1:el.image1,
+        image2:el.image2,
+        name:el.name,
+        price:el.price,
+        stock_status:el.stock_status
+      }
+      localStorage.setItem('jewel-product',JSON.stringify(obj));
+      window.location.href = 'displayProduct.html'
+    });
+
+
     icon_div_outer.append(icon_div_inner);
     div2.append(img2);
     card.append(div1, name1, price1, icon_div_outer);
@@ -527,8 +550,8 @@ append(arrLS);
 let data;
 let priceFunc = () => {
 
-  let min = document.getElementById('price-from').value;
-  let max = document.getElementById('price-to').value;
+  let min = document.getElementById('min-range').value;
+  let max = document.getElementById('max-range').value;
 
   // let priceArrLS = JSON.parse(localStorage.getItem('priceArr'));
 
@@ -587,7 +610,7 @@ function showCheckboxes() {
 function inStock() {
   let filtered = [...prod];
   // console.log(filtered);
-  let stock_in = document.getElementById('stock-in');
+  let stock_in = document.getElementById('in-stock');
 
   if(stock_in.checked == true){
   filtered = filtered.filter((el) => {
@@ -601,10 +624,10 @@ function inStock() {
 }
 }
 
-function outStock() {
+function outofStock() {
   let filtered = [...prod];
   // console.log(filtered);
-  let stock_out = document.getElementById('stock-out');
+  let stock_out = document.getElementById('out-of-stock');
 
   if(stock_out.checked == true){
   filtered = filtered.filter((el) => {
@@ -618,7 +641,7 @@ function outStock() {
 }
 }
 
-let sortbtn = document.getElementById('sort');
+let sortbtn = document.getElementById('sortby');
 
 sortbtn.addEventListener('change', () => {
   let sort_value = sortbtn.value;
@@ -670,4 +693,29 @@ sortbtn.addEventListener('change', () => {
     append(sortData);
   }
 });
+
+
+
+function myFunction() {
+  document.getElementById("reset-form").reset();
+  document.getElementById("reset-form1").reset();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

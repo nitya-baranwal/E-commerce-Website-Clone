@@ -1,0 +1,63 @@
+/* login form css start */
+
+#forget_pass a{
+    font-size: 15px;
+    color: #121212BF;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-decoration: 1px underline;
+    text-underline-offset: 3px;
+    margin: 20px 0px;
+ }
+
+ #signIn_btn{
+    margin-top: 30px;
+    width: 120px;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    border: none;
+    color: white;
+    background-color: black;
+ }
+
+
+ #create_account {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5px;
+ }
+ #create_account a{
+
+    font-size: 15px;
+    color: #121212BF;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-decoration: 1px underline;
+    text-underline-offset: 4px;
+    margin: 10px 0px;
+    text-align: center;
+
+ }
+   #signIn_btn{
+      text-align: center;
+   }
+ 
+ #user_email,
+ #user_pass
+ {
+   border-radius: 0px;
+   border: 1px solid #121212BF;
+   display: block;
+   margin: 20px auto;;
+   width: 440px;
+   height: 45px;
+   padding-left: 20px;
+   
+  }
+
+
+  /* login form css end */
