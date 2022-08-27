@@ -87,6 +87,7 @@ height: auto;
 
  #nav_menu ul li {
      padding: 10px;
+
  }
 
  #nav_menu ul li a {
@@ -98,21 +99,17 @@ height: auto;
 
  }
 
+ #nav_menu ul li a:active{
+        color: black;
+        text-decoration: 2px underline;
+        font-weight: 500;
+
+ }
+
 
  #nav_menu ul li :hover{
     text-decoration: underline;
-    text-underline-offset: 3px;
  }
-
- .active{
-         
-   color: black;
-   text-decoration: underline !important ;
-   text-underline-offset: 3px;
-   font-weight: 500;
-}
-
-
 
  #nav_icons{
     width: 25%;
