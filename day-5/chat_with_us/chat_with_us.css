@@ -1,14 +1,16 @@
+/* chat with us */
 #chat_with_us
 {
     padding:23px 25px;
-    background-color: rgb(73, 81, 73);
+    background-color: #44594F;
     color: white;
     border-radius: 10pc;
     border: none;
     font-size: 18px;
-    margin-top: 40%;
-    margin-left: 68% ;
+    margin-top: 39%;
+    margin-left: 87% ;
     position: fixed;
+    z-index: 100;
 }
 #first_mega_container
 {
@@ -30,8 +32,9 @@
     width: 25%;
     height: 220px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    margin-left: 53%;
+    margin-left: 70%;
     position: fixed;
+    z-index: 80;
     background-color: rgb(73, 81, 73);
     border-radius: 10px 10px 0px 0px;
 }
@@ -40,9 +43,11 @@
     width: 25%;
     height: 400px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    margin-left: 53%;
+    background-color: white;
+    margin-left: 70%;
     margin-top: 13%;
     position: fixed;
+    z-index: 80;
     border-radius: 0px 0px 10px 10px;
 }
 .first_chat_with_us_container_child_third
@@ -50,9 +55,10 @@
     width: 22%;
     height: 150px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    margin-left: 54.5%;
+    margin-left: 71.5%;
     margin-top: 10%;
     position: fixed;
+    z-index: 100;
     background-color: white;
     border-radius: 10px;
 }
@@ -75,32 +81,37 @@
     text-align: center;
     margin-top: 30% ;
     font-size: 20px ;
-    font-weight: 550;
+    font-weight: 650;
+    color: #44594F;
 }
 .first_chat_with_us_container_child_sec_button
 {
     padding: 14px 270px 15px 20px;
     font-size: 18px;
     font-weight: 500;
-    margin-left:5px ;
+    margin-left:7px ;
     color: rgb(26, 30, 26);
     border-radius: 10px;
-    border:2px solid rgb(73, 81, 73);
+    border:2px solid #44594F;
 }
 .first_chat_with_us_container_child_sec_button:hover
 {
     color:white;
-    background-color: rgb(73, 81, 73);
+    background-color: #44594F;
 }
 #cross_deletion_button
 {
-    padding:16px 25px;
-    background-color: rgb(73, 81, 73);
+    padding:16px 28px;
+    background-color: #44594F;
     color: white;
     border-radius: 10pc;
     border: none;
     font-size: 30px;
-    margin-top: 40%;
-    margin-left: 74% ;
+    font-weight: bold;
+    margin-top: 39%;
+    margin-left: 91% ;
     position: fixed;
+    z-index: 100;
 }
+
+/* chat with us end */

@@ -1,7 +1,13 @@
 
+    // chat with us
+// function buttonlogo()
+// {
+//     return `<i class="fa-solid fa-paper-plane-top"></i>`
+// }
 let chat_with_us_container=document.getElementById("first_chat_with_us_container")
 function create_side_window()
 {
+    chat_with_us_container.innerHTML="";
     //console.log("click")
     let div1=document.createElement("div");
     div1.setAttribute("class","first_chat_with_us_container_child_first");
@@ -20,10 +26,11 @@ function create_side_window()
     div3.setAttribute("class","first_chat_with_us_container_child_third");
     let textarea=document.createElement("textarea")
     textarea.setAttribute("class","first_chat_with_us_container_child_third_textarea")
+    textarea.style.position="relative";
     textarea.placeholder="Write message...";
     let btn=document.getElementById("chat_with_us")
     btn.style.display="none";
-    let div5=document.getElementById("first_mega_container_first_child")
+    let div6=document.createElement("div")
     let bt=document.createElement("button");
     bt.setAttribute("id","cross_deletion_button")
     bt.innerText="X";
@@ -31,20 +38,22 @@ function create_side_window()
     {
         btfun();
     })
+    // let div7=document.createElement("div")
+    div1.setAttribute("id","button_chat_send")
+    // div7.innerHTML=buttonlogo();
+    // div3.append(div7);
     div1.append(comment);
     div3.append(textarea);
     div2.append(para);
     div2.append(button);
-    div5.append(bt);
-    chat_with_us_container.append(div1,div2,div3)
+    div6.append(bt);
+    chat_with_us_container.append(div1,div2,div3,div6)
 }
 
 function btfun()
 {
-    let con_bt_fun=document.getElementById("first_chat_with_us_container");
-    con_bt_fun.style.display="none";
+    chat_with_us_container.innerHTML="";
     let btn=document.getElementById("chat_with_us")
     btn.style.display="block";
-    let btttn=document.getElementById("cross_deletion_button")
-    btttn.style.display="none";
 }
+//   chat with us end
