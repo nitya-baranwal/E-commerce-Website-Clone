@@ -101,7 +101,7 @@
 }
 #cross_deletion_button
 {
-    padding:16px 26px;
+    padding:16px 28px;
     background-color: #44594F;
     color: white;
     border-radius: 10pc;
@@ -113,5 +113,268 @@
     position: fixed;
     z-index: 100;
 }
-
+@media all and (min-width:1004px) and (max-width:1118.9px)
+{
+    .first_chat_with_us_container_child_first
+    {
+        margin-left: 56%;
+    }
+    .first_chat_with_us_container_child_sec
+    {
+        margin-left: 56%;
+        margin-top: 18%; 
+        height:300px ;
+    }
+    .first_chat_with_us_container_child_third
+    {
+        margin-top: 17%;
+        height: 70px;
+        margin-left: 57.5%;
+    }
+    .first_chat_with_us_container_child_sec_button
+    {
+        margin-top: 20%;
+        padding: 1px 120px 1px 1px;
+    }
+    .first_chat_with_us_container_child_sec_para
+    {
+        font-size: 18px;
+    }
+    .first_chat_with_us_container_child_first_comment
+    {
+        font-size: 19px;
+    }
+    #chat_with_us
+    {
+        margin-top: 65%;
+        margin-left: 80% ;
+    }
+    #cross_deletion_button
+    {
+        margin-top: 66%;
+        margin-left: 86%;
+    }
+}
+@media all and (min-width:950px) and (max-width:1003.9px)
+    {
+        .first_chat_with_us_container_child_first
+        {
+            margin-left: 57%;
+        }
+        .first_chat_with_us_container_child_sec
+        {
+            margin-left: 57%;
+            margin-top: 18%; 
+            height:300px ;
+        }
+        .first_chat_with_us_container_child_third
+        {
+            height: 70px;
+            margin-top: 17%;
+            margin-left: 58.5%;
+        }
+        .first_chat_with_us_container_child_sec_button
+        {
+            margin-top: 10%;
+            padding:1px 100px 1px 1px; 
+        }
+        .first_chat_with_us_container_child_sec_para
+        {
+            margin-top: 50%;
+            font-size: 15px;
+        }
+        .first_chat_with_us_container_child_first_comment
+        {
+            font-size: 17px;
+        }
+         #chat_with_us
+    {
+        margin-top: 69%;
+        margin-left: 80% ;
+    }
+    #cross_deletion_button
+    {
+        margin-top: 69%;
+        margin-left: 86%;
+    }
+    }
+    @media all and (min-width:807px) and (max-width:949.5px)
+    {
+        .first_chat_with_us_container_child_first
+        {
+            margin-left: 47%;
+        }
+        .first_chat_with_us_container_child_sec
+        {
+            margin-left: 47%;
+            margin-top: 18%; 
+            height:300px ;
+        }
+        .first_chat_with_us_container_child_third
+        {
+            height: 70px;
+            margin-top: 17%;
+            margin-left: 48.5%;
+        }
+        .first_chat_with_us_container_child_sec_button
+        {
+            margin-top: 10%;
+            padding:1px 90px 1px 1px; 
+        }
+        .first_chat_with_us_container_child_sec_para
+        {
+            margin-top: 50%;
+            font-size: 15px;
+        }
+        .first_chat_with_us_container_child_first_comment
+        {
+            font-size: 17px;
+        }
+        #chat_with_us
+        {
+            margin-top: 69%;
+            margin-left: 80% ;
+        }
+        #cross_deletion_button
+        {
+            margin-top: 69%;
+            margin-left: 86%;
+        }
+    }
+    @media all and (min-width:680px) and (max-width:806.5px)
+    {
+        .first_chat_with_us_container_child_first
+        {
+            margin-left: 57%;
+        }
+        .first_chat_with_us_container_child_sec
+        {
+            margin-left: 57%;
+            margin-top: 18%; 
+            height:300px ;
+        }
+        .first_chat_with_us_container_child_third
+        {
+            height: 70px;
+            margin-top: 17%;
+            margin-left: 58.5%;
+        }
+        .first_chat_with_us_container_child_sec_button
+        {
+            margin-top: 10%;
+            padding:1px 75px 1px 1px; 
+            font-size: 12px;
+        }
+        .first_chat_with_us_container_child_sec_para
+        {
+            margin-top: 50%;
+            font-size: 12px;
+        }
+        .first_chat_with_us_container_child_first_comment
+        {
+            font-size: 14px;
+        }
+        #chat_with_us
+        {
+            margin-top: 79%;
+            margin-left: 80% ;
+        }
+        #cross_deletion_button
+        {
+            margin-top: 79%;
+            margin-left: 86%;
+        }
+    }
+    @media all and (min-width:520px) and (max-width:679.5px)
+    {
+        .first_chat_with_us_container_child_first
+        {
+            margin-left: 54%;
+        }
+        .first_chat_with_us_container_child_sec
+        {
+            margin-left: 54%;
+            margin-top: 18%; 
+            height:300px ;
+        }
+        .first_chat_with_us_container_child_third
+        {
+            height: 50px;
+            margin-top: 17%;
+            margin-left: 55.5%;
+        }
+        .first_chat_with_us_container_child_sec_button
+        {
+            margin-top: 10%;
+            padding:1px 40px 1px 1px; 
+            font-size: 12px;
+        }
+        .first_chat_with_us_container_child_sec_para
+        {
+            margin-top: 50%;
+            font-size: 12px;
+        }
+        .first_chat_with_us_container_child_first_comment
+        {
+            font-size: 12px;
+        }
+        #chat_with_us
+        {
+            margin-top: 79%;
+            margin-left: 80% ;
+        }
+        #cross_deletion_button
+        {
+            margin-top: 79%;
+            margin-left: 86%;
+        }
+    }
+    @media all and (min-width:320px) and (max-width:519.5px)
+    {
+        .first_chat_with_us_container_child_first
+        {
+            margin-left: 46%;
+        }
+        .first_chat_with_us_container_child_sec
+        {
+            margin-left: 46%;
+            margin-top: 18%; 
+            height:300px ;
+        }
+        .first_chat_with_us_container_child_third
+        {
+            height: 70px;
+            margin-top: 17%;
+            margin-left: 47.5%;
+        }
+        .first_chat_with_us_container_child_sec_button
+        {
+            margin-top: 10%;
+            padding:1px 30px 1px 1px;
+            font-size: 10px; 
+        }
+        .first_chat_with_us_container_child_sec_para
+        {
+            margin-top: 80%;
+            font-size: 10px;
+        }
+        .first_chat_with_us_container_child_first_comment
+        {
+            font-size: 8px;
+        }
+        #chat_with_us,#cross_deletion_button
+        {
+            margin-left: 60% ;
+        }
+        #chat_with_us
+    {
+        margin-top: 99%;
+        margin-left: 60% ;
+    }
+      #cross_deletion_button
+    {
+        margin-top: 99%;
+        margin-left: 75%;
+    }
+    }
 /* chat with us end */
